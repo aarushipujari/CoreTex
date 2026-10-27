@@ -1,0 +1,42 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Env / secrets
+.env
+.env.local
+
+# Local SQLite dev database
+*.db
+*.sqlite3
+
+# Frontend / Node
+node_modules/
+dist/
+.vite/
+coverage/
+*.log
+
+# Office lock files (Word, Excel, etc. create these while a doc is open)
+~$*
+~$*.docx
+~$*.xlsx
+
+# LaTeX build artefacts
+*.aux
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
